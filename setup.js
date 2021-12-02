@@ -73,11 +73,10 @@ const Eslintconfigartion = {
 // =================  vs code json code   ================
 
  const vsecode = {
-    // Theme optional
-    "workbench.colorTheme": "Dracula",
+   
   
     // config related to code formatting
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    
     "editor.formatOnSave": true,
     "[javascript]": {
       "editor.formatOnSave": false,
