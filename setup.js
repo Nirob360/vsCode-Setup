@@ -37,6 +37,8 @@ const Eslintconfigartion = {
           "jest": true
         },
         "rules": {
+          "react/jsx-props-no-spreading": 0,
+          "import/prefer-default-export": 0,
           "react/react-in-jsx-scope": 0,
           "react-hooks/rules-of-hooks": "error",
           "no-console": 0,
