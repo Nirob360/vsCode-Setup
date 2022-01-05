@@ -2,7 +2,7 @@
 
 const lintSetup = {
     scripts: {
-        "lint": "yarn add -D prettier && yarn add -D babel-eslint && npx install-peerdeps --dev eslint-config-airbnb && yarn add -D eslint-config-prettier eslint-plugin-prettier"
+        "lint": "npm i -D prettier && npm i -D babel-eslint && npx install-peerdeps --dev eslint-config-airbnb && npm i -D eslint-config-prettier eslint-plugin-prettier"
     },
     uninstall_eslint: {
         "error fix ":  "yarn remove eslint"
